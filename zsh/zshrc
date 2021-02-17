@@ -1,3 +1,8 @@
+# load custom functions
+for function in ~/.cfg/dotfiles/zsh/functions/*; do
+  source $function
+done
+
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
 HISTSIZE=1000
